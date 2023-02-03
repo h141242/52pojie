@@ -4,7 +4,7 @@
 
 # 一般cookie只要htVC_2132_saltkey="xxxxxx";htVC_2132_auth="xxxxxxxxxxxx";两个字段就行了
 
-# 
+# 青龙
 
 青龙运行需要requests和bs4依赖
 

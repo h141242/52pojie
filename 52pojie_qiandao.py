@@ -40,16 +40,12 @@ jx_data = r_data.find("div", id="messagetext").find("p").text
 
 if "您需要先登录才能继续本操作" in jx_data:
     sign_msg="❌Cookie 失效"
-    print(sign_msg)
 elif "恭喜" in jx_data:
     sign_msg="⭐签到成功"
-    print(sign_msg)
 elif "不是进行中的任务" in jx_data:
     sign_msg="💔今日已签到"
-    print(sign_msg)
 else:
     sign_msg="⚡签到失败"
-    print(sign_msg)
 
 send('吾爱破解签到', sign_msg+'\n\n本通知 By HY-吾爱破解\n通知时间:' + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
 

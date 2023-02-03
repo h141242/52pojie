@@ -10,3 +10,5 @@ Pojie52_COOKIE 填入吾爱破解COOKIES
 
 # 第二步
 将获取到的cookie填写进脚本的cookie = ""的引号里； 本地运行，青龙运行均可（需要requests和bs4依赖）
+
+来源https://github.com/Mrzqd/52pojie_sign  只添加了消息发送代码
